@@ -264,7 +264,7 @@ Notice that Abstract Factory often uses Factory Methods inside (`createDough()` 
 
 ## Factory Method vs Abstract Factory
 
-||Factory Method|Abstract Factory|
+| |Factory Method|Abstract Factory|
 |---|---|---|
 |**Creates**|**One** product|A **family** of related products|
 |**Mechanism**|Inheritance: a subclass overrides the method|Composition: the client receives a factory object|

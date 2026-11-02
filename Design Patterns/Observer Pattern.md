@@ -122,10 +122,10 @@ void main() {
 ---
 ## Push vs Pull
 
-|Style|How it works|Trade-off|
-|---|---|---|
-|**Push**|Subject sends the data in `update(...)`|Simple, but every observer gets all the data, even what it doesn't need; changing the data set breaks every observer's signature|
-|**Pull**|Subject sends a simple "something changed" signal; observers read what they need from the subject's getters|More flexible; observers take only what they need|
+| Style    | How it works                                                                                                | Trade-off                                                                                                                        |
+| -------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Push** | Subject sends the data in `update(...)`                                                                     | Simple, but every observer gets all the data, even what it doesn't need; changing the data set breaks every observer's signature |
+| **Pull** | Subject sends a simple "something changed" signal; observers read what they need from the subject's getters | More flexible; observers take only what they need                                                                                |
 
 ---
 ## Observer in Dart and Flutter
